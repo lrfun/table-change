@@ -28,9 +28,9 @@
 
     <div class="container">
 		<div class="btnt">
-			<input type="submit" value="p1" class="cur">
-			<input type="submit" value="p2"class="p2_btn">
-			<input type="submit" value="p3">
+			<img src="./images/1.jpg" alt=""  class="cur1"/>
+			<img src="./images/2.jpg" alt="" class="p2_btn"/>
+			<img src="./images/3.jpg" alt="" />			
 	    </div>
 		<div class="contentBox_t">
 	         <img src="./images/1.jpg">
@@ -49,9 +49,9 @@ $(document).ready(function(){
 		$('div.contentBox_o>img:eq('+index+')').show().siblings().hide();
 	})
 
-	$('div.btnt>input').mouseover(function(){
+	$('div.btnt>img').mouseover(function(){
 		var index=$(this).index()
-		$(this).addClass("cur").siblings("input").removeClass("cur");
+		$(this).addClass("cur1").siblings("img").removeClass("cur1");
 		$('div.contentBox_t>img:eq('+index+')').show().siblings().hide();
 	})
 })
