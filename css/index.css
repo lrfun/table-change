@@ -8,7 +8,7 @@
 .container{width: 1000px;margin: 10px auto;}
 .container .btno .p2_btn{margin: 0px 4%}
 .container .btno input,.container .btnt input{width: 30%;padding: 10px;font-size: 20px;}
-.cur{background:black;color: #fff;border:0;}
+.cur{background:black;color: #fff;}
 .container .contentBox_o img,.container .contentBox_t img{width: 100%;margin: 10px 0;}
 .cur1{border: 1px solid red;}
 .btnt img{width: 30%;font-size: 20px;box-sizing:border-box;}
